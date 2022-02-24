@@ -1,0 +1,39 @@
+body{
+    font-size: 20px;
+    background-image: url("sketch_back1.jpg");
+    color: white;
+    font-family: 'Gochi Hand', cursive;
+    font-weight: medium;
+    font-size: 35;
+}
+#timer{
+    float: right;
+    margin-right: 65px;
+}
+#score{
+    margin-left: 55px;
+}
+
+canvas{
+    border: 50px white solid;
+    border-radius: 20px;
+    animation-name: border_color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+
+@keyframes border_color{
+    75%{box-shadow: 0px 0px 30px 30px #0756e9;}
+    50% {box-shadow: 0px 0px 30px 30px rgb(102, 102, 97);}
+    25% {box-shadow: 0px 0px 30px 30px rgb(236, 168, 11);}
+}
+
+h1{
+    background-color: rgba(99, 133, 248, 0.829);
+}
+
+#show_sketch{
+    float: right;
+}
+
